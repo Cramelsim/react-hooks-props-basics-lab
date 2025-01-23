@@ -1,6 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import About from "../components/About";
+import '@testing-library/jest-dom'; 
+
 
 const links = {
   github: "https://github.com/liza",
